@@ -133,6 +133,7 @@ nav
 }
 .download-btn:hover{
     background-color: #b7b6b4;
+    cursor: pointer;
 }
 .photo{
     height:680px;
