@@ -1,0 +1,201 @@
+@font-face {
+    font-family: CursorGothic;
+    src: url('assets/fonts/CursorGothic-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url('assets/fonts/CursorGothic-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url('assets/fonts/CursorGothic-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CursorGothic;
+    src: url('assets/fonts/CursorGothic-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: italic;
+}
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-bg:#14120B;
+    --secondary-bg:#1D1B15;
+    
+}
+body{
+    background-color: var(--primary-bg);
+    /* font-family: CursorGothic, "CursorGothic Fallback", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'CursorGothic',Inter, sans-serif;
+}
+
+nav
+{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:52px;
+    width:85.472%;
+    margin-left: 7.264%;
+    margin-right: 7.264%;
+    font-size: 30px;
+    position:fixed;
+    top:0;
+    background-color:var(--primary-bg);
+}
+
+.features{
+    display: flex;
+    gap:34px;
+    margin-left: 50px;
+}
+.signin{
+    display: flex;
+    gap: 10px;
+}
+.features button{
+    background-color: var(--primary-bg);
+    border: none;
+    color:rgb(237, 236, 236);
+    font-size: 14px;
+}
+.features button:hover{
+    color:#B7B6B4;
+    cursor: pointer;
+}
+.signin button{
+    background-color: var(--primary-bg);
+    border : 1px solid #3C3B35 ;
+    border-radius: 16px;
+    font-size: 14px;
+    color:rgb(237, 236, 236);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.signin button:hover{
+    background-color:var(--secondary-bg);
+    cursor: pointer;
+
+}
+#Download
+{
+    background-color: rgb(237, 236, 236);
+    color: var(--primary-bg);
+}
+#Download:hover{
+    background-color: #b7b6b4;
+    cursor: pointer;
+}
+.heading {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    color: rgb(237, 236, 236);
+    font-size: 26px;
+}
+.download-btn {
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgb(237, 236, 236);
+  color:var(--primary-bg);
+  border: 1px solid #2A2A2A;
+  padding-left: 22px;
+  padding-right:22px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-radius: 26px;
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+.download-btn:hover{
+    background-color: #b7b6b4;
+}
+.photo{
+    height:680px;
+    width:1300px;
+    margin-left: 7.264%;
+    margin-right:7.264%;
+    margin-top:20px;
+    margin-bottom:60px;
+}
+.trust-line{
+    color: rgb(237, 236, 236); 
+    font-size: 14px;;
+}
+.company-cards{
+    height:156px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+}
+.company-cards div{
+    background-color: #1B1913;
+    height: 100px;
+    width:154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7.264%;
+    margin-right: 7.264%;
+    padding:16px;
+    gap:20px;
+    background-color: #1B1913;
+}
+.textbox
+{
+    width:33%;
+    height: 650px;
+    color:#999896;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Highlight{
+    color:rgb(237, 236, 236);
+}
+.textbox p,a{
+    width:383px;
+    
+}
+.link{
+    text-decoration: none;
+    color:#EE380F;
+    font-size:16px;
+}
+.link:hover{
+    color:#ee380fd7;
+}
+
+
